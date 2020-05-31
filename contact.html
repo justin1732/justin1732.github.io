@@ -21,6 +21,7 @@
     </div>
   </header>
 
+
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>Contact</h1>
@@ -28,6 +29,7 @@
       <form id="contact-form">
         <ul>
           <li>
+            <form method -"post" action= "index.php">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="John Smith" required="required">
           </li>
@@ -39,10 +41,14 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" required="required"></textarea>
           </li>
+          <li>
+            <label>*What is 2+2? (Anti-spam)</label>
+          <input name="human" placeholder="Type Here">
+          </li>
         </ul>
         <input type="submit">
       </form>
-
+    </form>
     </section>
 
   </div>
